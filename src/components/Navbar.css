@@ -51,5 +51,10 @@
   display: flex;
   justify-content: center;
   padding: 0 10px;
+  text-decoration: none;
   margin: 0;
+}
+
+.active {
+  text-decoration: underline;
 }
