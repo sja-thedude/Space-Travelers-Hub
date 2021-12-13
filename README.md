@@ -100,7 +100,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - GitHub: [@1GORDON](https://github.com/1GORDON)
 - Twitter: [@](https://www.twitter.com/GTinyefuza)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tinyefuza-gordon/)
 
 ## 🤝 Contributing
 
