@@ -1,5 +1,5 @@
 /* eslint-disable no-case-declarations */
-import { FETCH_ALL_ROCKETS } from '../actions/actionTypes';
+import { FETCH_ALL_ROCKETS, RESERVE_ROCKET, CANCEL_RESERVATION } from '../actions/actionTypes';
 
 const rockets = (state = [], action) => {
   switch (action.type) {
@@ -13,6 +13,15 @@ const rockets = (state = [], action) => {
         };
       });
       return [...state, ...filteredData];
+
+    case RESERVE_ROCKET:
+    case CANCEL_RESERVATION:
+      return state.map((rocket) => {
+        if (rocket.id !== parseInt(action.payload, 10)) {
+          return rocket;
+        }
+        return { ...rocket, reserved: !rocket.reserved };
+      });
 
     default:
       return state;
