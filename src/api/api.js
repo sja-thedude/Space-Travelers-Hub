@@ -1,4 +1,6 @@
-const url = 'https://...';// TODO: Add your url code here
+const rocketsUrl = 'https://api.spacexdata.com/v3/rockets';
+const missionsUrl = 'https://...';// TODO: Add your url code here
+const dragonsUrl = 'https://...';// TODO: Add your url code here
 
 const getData = async (url) => {
   try {
@@ -9,11 +11,8 @@ const getData = async (url) => {
   }
 };
 
-// TODO: Change 'fetchData' to 'fetchMissions'
-export const fetchData = async () => getData(url);
+export const fetchRockets = () => getData(rocketsUrl);
 
-// TODO: Change 'fetchData2' to 'fetchRockets'
-export const fetchData2 = () => getData(url);
+export const fetchMissions = () => getData(missionsUrl);
 
-// TODO: Change 'fetchData3' to 'fetchDragons'
-export const fetchData3 = () => getData(url);
+export const fetchDragons = () => getData(dragonsUrl);
