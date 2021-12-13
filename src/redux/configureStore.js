@@ -3,11 +3,12 @@ import {
 } from 'redux';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
-import missionsReducer from './reducers/missions';
-import rocketsReducer from './reducers/rockets';
+import missions from './reducers/missions';
+import rockets from './reducers/rockets';
+import dragons from './reducers/dragons';
 
 const reducer = combineReducers({
-  missionsReducer, rocketsReducer,
+  missions, rockets, dragons,
 });
 
 const store = createStore(

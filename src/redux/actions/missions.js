@@ -4,7 +4,7 @@ import * as api from '../../api/api';
 // API action creators
 const getMissions = () => async (dispatch) => {
   try {
-    const data = await api.fetchData();
+    const data = await api.fetchData(); // TODO: Change 'fetchData' to 'fetchMissions'
 
     dispatch({ type: FETCH_ALL_MISSIONS, payload: data });
   } catch (error) {

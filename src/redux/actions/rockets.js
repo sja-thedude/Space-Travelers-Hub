@@ -4,7 +4,7 @@ import * as api from '../../api/api';
 // API action creators
 const getRockets = () => async (dispatch) => {
   try {
-    const data = await api.fetchData();
+    const data = await api.fetchData(); // TODO: Change 'fetchData2' to 'fetchRockets'
 
     dispatch({ type: FETCH_ALL_ROCKETS, payload: data });
   } catch (error) {
