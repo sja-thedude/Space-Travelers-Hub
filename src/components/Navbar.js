@@ -20,6 +20,11 @@ const Navbar = () => (
             My Profile
           </NavLink>
         </li>
+        <li>
+          <NavLink to="/my-profile" className="link-item">
+            Dragons
+          </NavLink>
+        </li>
       </ul>
     </div>
   </div>
