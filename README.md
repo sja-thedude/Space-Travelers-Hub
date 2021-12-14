@@ -44,14 +44,6 @@ If you encounter an issue related to eslint or webpack version conflict run:
 npm audit fix --force
 ```
 
-## `Tests`
-To check development tests run:
-```
-npm run test
-```
-Launches the test runner in the interactive watch mode.
-
-
 ### To track linter errors locally follow these steps:  
 
 Track CSS linter errors run:
@@ -105,7 +97,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/KDlamini/space-travellers-hub/issues).
+Feel free to check the [issues page](https://github.com/sja-thedude/space-travellers-hub/issues).
 
 
 ## Show your support

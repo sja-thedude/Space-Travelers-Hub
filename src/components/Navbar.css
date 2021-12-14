@@ -28,28 +28,27 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  border: 1px solid #e6e6e6;
 }
 
 .link-list {
   display: flex;
-  width: 60%;
   padding: 10px;
   margin-right: 20px;
   list-style: none;
 }
 
-.link-list li {
-  flex: 1;
+.nav-item {
+  padding: 0 0 0 20px;
 }
 
-.link-list li:last-child {
-  border-left: 1px solid #e6e6e6;
+.noactive-link {
+  color: #2ea8d1;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
 }
 
-.link-item {
-  display: flex;
-  justify-content: center;
-  padding: 0 10px;
-  margin: 0;
+.active {
+  color: #206fdf;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
 }
