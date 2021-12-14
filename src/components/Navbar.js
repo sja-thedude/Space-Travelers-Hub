@@ -21,7 +21,7 @@ const Navbar = () => (
           </NavLink>
         </li>
         <li>
-          <NavLink to="/my-profile" className="link-item">
+          <NavLink to="/dragons" className="link-item">
             Dragons
           </NavLink>
         </li>

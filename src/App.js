@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Line from './components/Line';
 import Rockets from './components/Rockets';
-import Dragons from './components/dragons/Dragons';
+import Dragons from './components/Dragons';
 import MyProfile from './components/MyProfile';
 
 function App() {

@@ -1,4 +1,4 @@
-import { FETCH_ALL_DRAGONS, RESERVE_DRAGON, CANCEL_RESERVATION } from './actionTypes';
+import { FETCH_ALL_DRAGONS, RESERVE_DRAGON, CANCEL_RESERVATIONS } from './actionTypes';
 import * as api from '../../api/api';
 
 export const getDragons = () => async (dispatch) => {
@@ -18,9 +18,9 @@ export const reserveDragon = (payload) => (
   }
 );
 
-export const cancelReservation = (payload) => (
+export const cancelReservations = (payload) => (
   {
-    type: CANCEL_RESERVATION,
+    type: CANCEL_RESERVATIONS,
     payload,
   }
 );
