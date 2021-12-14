@@ -8,7 +8,6 @@ const getMissions = () => async (dispatch) => {
       const { mission_id: missionId, mission_name: missionName, description } = obj;
       return { mission_id: missionId, mission_name: missionName, description };
     });
-    console.log(filteredObject);
 
     dispatch({ type: FETCH_ALL_MISSIONS, payload: filteredObject });
   } catch (error) {
