@@ -16,6 +16,11 @@ const Navbar = () => (
           </NavLink>
         </li>
         <li className="nav-item">
+          <NavLink to="/missions" activeclassname="active-link" className="noactive-link">
+            Missions
+          </NavLink>
+        </li>
+        <li className="nav-item">
           <NavLink to="/my-profile" activeclassname="active-link" className="noactive-link">
             My Profile
           </NavLink>
