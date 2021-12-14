@@ -1,10 +1,9 @@
-import { FETCH_ALL_DRAGONS } from './actionTypes';
+import { FETCH_ALL_DRAGONS, RESERVE_DRAGON, CANCEL_RESERVATION } from './actionTypes';
 import * as api from '../../api/api';
 
-// API action creators
-const getDragons = () => async (dispatch) => {
+export const getDragons = () => async (dispatch) => {
   try {
-    const data = await api.fetchData(); // TODO: Change 'fetchData' to 'fetchDragons'
+    const data = await api.fetchDragons();
 
     dispatch({ type: FETCH_ALL_DRAGONS, payload: data });
   } catch (error) {
@@ -12,4 +11,16 @@ const getDragons = () => async (dispatch) => {
   }
 };
 
-export default getDragons;
+export const reserveDragon = (payload) => (
+  {
+    type: RESERVE_DRAGON,
+    payload,
+  }
+);
+
+export const cancelReservation = (payload) => (
+  {
+    type: CANCEL_RESERVATION,
+    payload,
+  }
+);
