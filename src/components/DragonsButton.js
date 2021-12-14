@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { reserveDragon, cancelReservations } from '../redux/actions/dragons';
+import { reserveDragon, cancelReservation } from '../redux/actions/dragons';
 import './Dragons.css';
 
 function Button({ id, reserved }) {
@@ -13,7 +13,7 @@ function Button({ id, reserved }) {
     if (booking === 'not-reserved') {
       dispatch(reserveDragon(id));
     } else if (booking === 'reserved') {
-      dispatch(cancelReservations(id));
+      dispatch(cancelReservation(id));
     }
   };
 
@@ -21,7 +21,7 @@ function Button({ id, reserved }) {
     <>
       {
         reserved
-          ? <button id={id} type="button" className="reserved" onClick={handleClick}>Cancel Reservations</button>
+          ? <button id={id} type="button" className="reserved" onClick={handleClick}>Cancel Reservation</button>
           : <button id={id} type="button" className="not-reserved" onClick={handleClick}>Reserve Dragon</button>
       }
     </>

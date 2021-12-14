@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
-.roc-card {
+.dragon-card {
   display: flex;
   font-family: 'Poppins', sans-serif;
   font-size: 0.845rem;
@@ -8,16 +8,16 @@
   width: 94%;
 }
 
-.roc-img {
+.dragon-img {
   width: 15rem;
   height: 11rem;
 }
 
-.roc-info {
+.dragon-info {
   margin-left: 5%;
 }
 
-.roc-name {
+.dragon-name {
   margin: 0;
 }
 

@@ -7,12 +7,12 @@ function Dragon({
   id, image, name, description, reserved,
 }) {
   return (
-    <div className="roc-card">
+    <div className="dragon-card">
       <div className="img-wrapper">
-        <img src={image} alt={name} className="roc-img" />
+        <img src={image} alt={name} className="dragon-img" />
       </div>
-      <div className="roc-info">
-        <h1 className="roc-name">{name}</h1>
+      <div className="dragon-info">
+        <h1 className="dragon-name">{name}</h1>
         <p className="desc">
           {
             reserved

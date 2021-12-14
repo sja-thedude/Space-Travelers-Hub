@@ -1,5 +1,5 @@
 /* eslint-disable no-case-declarations */
-import { FETCH_ALL_DRAGONS, RESERVE_DRAGON, CANCEL_RESERVATIONS } from '../actions/actionTypes';
+import { FETCH_ALL_DRAGONS, RESERVE_DRAGON, CANCEL_RESERVE } from '../actions/actionTypes';
 
 const dragons = (state = [], action) => {
   switch (action.type) {
@@ -15,7 +15,7 @@ const dragons = (state = [], action) => {
       return [...state, ...filteredData];
 
     case RESERVE_DRAGON:
-    case CANCEL_RESERVATIONS:
+    case CANCEL_RESERVE:
       return state.map((dragon) => {
         if (dragon.id !== parseInt(action.payload, 10)) {
           return dragon;
