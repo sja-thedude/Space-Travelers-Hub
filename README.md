@@ -3,8 +3,31 @@ The Space Travelers' Hub consists of Rockets, Missions, and the My Profile secti
 
 This project is part of the Microverse curriculum block 4 module 3. The main objective is to understand how create a React app, use components, hooks, state, redux, run tests, and creating professional documentation for development.
 
+## Rockets
+
+![rockets](./src/assets/Rockets.png)
+
+## Missions
+
+![missions](./src/assets/Missions.png)
+
+## Dragons
+
+![dragons](./src/assets/Dragons.png)
+
+## My Profile
+
+![profile](./src/assets/MyProfile.png)
+
 ## Live Preview
 [SpaceX Travellers' Hub]()
+
+## Our team consists of three members and worked on -:
+
+Syeda Juveria Afreen - Rockets
+Eloi Ntazama - Missions
+Gordon Tinyefuza - Dragons
+
 
 ## Built With
 
@@ -78,6 +101,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Authors
 
 👤 **Syeda Juveria Afreen**
+
 - GitHub: [@sja-thedude](https://github.com/sja-thedude)
 - Twitter: [@sja_thedude](https://www.twitter.com/sja_thedude)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/sja-thedude)
@@ -86,7 +110,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - GitHub: [@ntazelo](https://github.com/ntazelo)
 - Twitter: [@](https://www.twitter.com/NtazamaE)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/eloi-ntazama-a14219214)
 
 👤 **Gordon Tinyefuza**
 
