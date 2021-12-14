@@ -6,4 +6,4 @@ export const RESERVE_ROCKET = 'spaceHub/rockets/RESERVE_ROCKET';
 export const CANCEL_RESERVATION = 'spaceHub/rockets/CANCEL_RESERVATION';
 
 export const RESERVE_DRAGON = 'spaceHub/dragons/RESERVE_DRAGON';
-export const CANCEL_RESERVATION = 'spaceHub/dragons/CANCEL_RESERVATION';
+export const CANCEL_RESERVATIONS = 'spaceHub/dragons/CANCEL_RESERVATIONS';
