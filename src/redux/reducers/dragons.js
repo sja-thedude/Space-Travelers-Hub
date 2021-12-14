@@ -4,12 +4,12 @@ import { FETCH_ALL_DRAGONS, RESERVE_DRAGON, CANCEL_RESERVE } from '../actions/ac
 const dragons = (state = [], action) => {
   switch (action.type) {
     case FETCH_ALL_DRAGONS:
-      const filteredData = action.payload.map((dragon) => {
+      const filteredData = action.payload.map((dragon, i) => {
         const {
-          id, dragons_name: name, dragons_type: type, flickr_images: image, description,
+          name, type, flickr_images: image,
         } = dragon;
         return {
-          id, name, type, image, description,
+          id: i + 1, name, type, image,
         };
       });
       return [...state, ...filteredData];
