@@ -1,3 +1,32 @@
-.my-profile {
-  margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+.result {
+  display: flex;
+  padding: 0 2rem;
+}
+
+.Box {
+  flex: 1;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+}
+
+.Mission-ProfileTable {
+  border-collapse: collapse;
+  margin: 30px 0;
+}
+
+.Title-Entry {
+  border: 1px solid #e8e8e8;
+  padding: 25px 35px;
+  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
 }

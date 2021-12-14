@@ -7,16 +7,15 @@ import Missions from './components/Missions/Missions';
 
 function App() {
   return (
-    <div className="MainApp">
+    <>
       <Navbar />
       <Line />
       <Routes>
-        <Route path="/rockets" element={<Rockets />} />
         <Route path="/missions" element={<Missions />} />
         <Route path="/my-profile" element={<MyProfile />} />
         <Route path="/" element={<Rockets />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
