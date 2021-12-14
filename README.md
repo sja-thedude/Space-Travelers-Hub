@@ -11,6 +11,7 @@ This project is part of the Microverse curriculum block 4 module 3. The main obj
 - React
 - JavaScript
 - HTML/CSS
+- API
 
 ## Additional Tools
 
